@@ -14,7 +14,7 @@ class ContractsController < ApplicationController
     if @contract.update(contract_params)
       response = {success: true, message: "updated", contract: @contract}
     else
-
+      response = {success: false, message: "error"}
     end
     json_response(response)
   end
@@ -22,7 +22,7 @@ class ContractsController < ApplicationController
 
   private
   def find_contract
-    @contract = Contract.find_by(id: params[:id])
+    @contract = Contract.find params[:id]
   end
 
   def contract_params

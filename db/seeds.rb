@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+Contract.create(:company => "Marius Bodvin A/S",:contractId => "1234558",:periodEnd => DateTime.now+20.days,:periodStart => DateTime.now,:scheduledForRenewal => true,:negotiationRenewalDate => DateTime.now+25.days)

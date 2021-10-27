@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  company: MyString
+  contractId: MyString
+  periodEnd: 2021-10-27 01:56:46
+  periodStart: 2021-10-27 01:56:46
+  scheduledForRenewal: false
+  negotiationRenewalDate: 2021-10-27 01:56:46
+
+two:
+  company: MyString
+  contractId: MyString
+  periodEnd: 2021-10-27 01:56:46
+  periodStart: 2021-10-27 01:56:46
+  scheduledForRenewal: false
+  negotiationRenewalDate: 2021-10-27 01:56:46

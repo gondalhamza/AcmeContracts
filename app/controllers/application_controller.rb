@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
 	include ApplicationHelper
 	include Response
 	
-	protect_from_forgery with: :null_session
+	# protect_from_forgery with: :null_session
 
 	rescue_from ActiveRecord::RecordNotFound, with: :record_not_found_error
 

@@ -8,3 +8,5 @@
 
 
 Contract.create(:company => "Marius Bodvin A/S",:contractId => "1234558",:periodEnd => DateTime.now+20.days,:periodStart => DateTime.now,:scheduledForRenewal => true,:negotiationRenewalDate => DateTime.now+25.days)
+
+Contract.create(:company => "Terjei Romtveit A/A",:contractId => "12345589",:periodEnd => DateTime.now+20.days,:periodStart => DateTime.now,:scheduledForRenewal => true,:negotiationRenewalDate => DateTime.now+25.days)

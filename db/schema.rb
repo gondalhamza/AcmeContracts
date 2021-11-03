@@ -10,15 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_26_235645) do
+ActiveRecord::Schema.define(version: 2021_11_03_004545) do
 
   create_table "contracts", force: :cascade do |t|
     t.string "company"
     t.string "contractId"
-    t.datetime "periodEnd"
-    t.datetime "periodStart"
+    t.string "periodEnd"
+    t.string "periodStart"
     t.boolean "scheduledForRenewal"
-    t.datetime "negotiationRenewalDate"
+    t.string "negotiationRenewalDate"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
